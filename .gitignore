@@ -1,0 +1,19 @@
+# Logs et donnees generees par Airflow (lourds, non pertinents a versionner)
+logs/
+plugins/
+*.log
+
+# Modeles entraines (volumineux, regeneres automatiquement par le pipeline)
+models/*.pkl
+models/metadata.json
+
+# Environnements Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Fichiers sensibles
+.env
+.wslconfig
+
+dags/mon_premier_dag.py
