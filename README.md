@@ -48,6 +48,10 @@ Base de données relationnelle normalisée à 3 tables :
 
 ![Détail des features](./screenshots/detail_features.png)
 
+**Suivi de l'état du modèle (mis à jour automatiquement par Airflow) :**
+
+![État du modèle](./screenshots/DB_lenght.png)
+
 ## 🔍 Feature Engineering en SQL
 
 Plutôt que de tout calculer en pandas, les variables comportementales sont calculées **directement en SQL** via des fonctions de fenêtre (window functions), exposées dans une vue réutilisable (`vue_features_transactions`) :
