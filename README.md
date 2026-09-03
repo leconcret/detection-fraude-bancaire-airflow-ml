@@ -38,6 +38,16 @@ Base de données relationnelle normalisée à 3 tables :
 
 ~100 000+ transactions générées avec des **patterns de fraude réalistes** (montants anormaux, pays étrangers, horaires atypiques).
 
+## 📸 Aperçu de l'interface
+
+**Détection en temps réel avec explication de la décision :**
+
+![Prédiction de fraude](./screenshots/prediction_fraude.png)
+
+**Détail des variables comportementales calculées :**
+
+![Détail des features](./screenshots/detail_features.png)
+
 ## 🔍 Feature Engineering en SQL
 
 Plutôt que de tout calculer en pandas, les variables comportementales sont calculées **directement en SQL** via des fonctions de fenêtre (window functions), exposées dans une vue réutilisable (`vue_features_transactions`) :
